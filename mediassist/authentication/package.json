@@ -1,0 +1,26 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication Service",
+  "main": "authentication.js",
+  "scripts": {
+    "start": "node authentication.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "F21AO Group 3",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "mongodb": "^4.4.0",
+    "properties-reader": "^2.2.0",
+    "string-format": "^2.0.0",
+    "underscore": "^1.13.2",
+    "uuid": "^8.3.2"
+  }
+}
