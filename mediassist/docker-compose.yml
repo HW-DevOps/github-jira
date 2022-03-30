@@ -14,4 +14,4 @@ services:
     hostname: 'Ward Admission Microservice'
     build: './ward_admission'
     ports:
-    - "7000:7000"
+      - "7000:7000"
