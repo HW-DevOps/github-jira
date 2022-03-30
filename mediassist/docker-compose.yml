@@ -1,0 +1,16 @@
+services:
+  authentication:
+    hostname: 'account'
+    build: './authentication_microservice'
+    ports:
+      - "5000:5000"
+  patient_registartion:
+    hostname: 'Patient Registartion Microservice'
+    build: './patient_registration'
+    ports:
+      - "6000:6000"
+  ward_admission:
+    hostname: 'Ward Admission Microservice'
+    build: './ward_admission'
+    ports:
+    - "7000:7000"
