@@ -10,3 +10,5 @@ Three modules have been implemented:
 * User Authentication
 * Patient Registration
 * Ward Admission
+
+*** Test
